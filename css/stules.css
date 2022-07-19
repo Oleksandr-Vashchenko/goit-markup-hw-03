@@ -198,13 +198,14 @@ body {
 /* work section */
 
 .section {
-  margin-top: 0;
-  margin-bottom: 0;
   padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.no-pading {
   padding-bottom: 0;
 }
 
-/*доделать*/
 .work-list {
   display: flex;
   justify-content: center;
@@ -212,6 +213,10 @@ body {
 
 .work-list .work-item:not(:last-child) {
   margin-right: 30px;
+}
+
+.work-item {
+  width: 270px;
 }
 
 .work-title {
@@ -231,9 +236,6 @@ body {
 }
 
 /* lessons section/Чем мы занимаемся */
-.lessons {
-  padding-bottom: 94px;
-}
 
 .lessons-title {
   text-align: center;
@@ -263,8 +265,8 @@ body {
 /* team section/Наша команда */
 .team {
   background: #f5f4fa;
-  padding-bottom: 94px;
-}
+  }
+  
 .team-title {
   color: #212121;
   text-align: center;
@@ -361,9 +363,6 @@ body {
 /*стили для портфолио*/
 
 /*portfolio  */
-.portfolio {
-  padding: 94px 0;
-}
 
 .portfolio-list {
   display: flex;
@@ -421,7 +420,7 @@ body {
   margin-bottom: 0;
 }
 
-.portfolio-kard{
+.portfolio-kard {
   padding: 20px 24px;
   border: 1px solid #eeeeee;
   border-top: 0;
