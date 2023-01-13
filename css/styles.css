@@ -38,8 +38,6 @@ button {
   cursor: pointer;
 }
 
-
-
 /*=====================================componets============================================*/
 .container {
   max-width: 1158px;
@@ -204,7 +202,7 @@ body {
   column-gap: 24px;
 }
 .activity-company-item {
-  max-width: 264px;
+  flex-basis: calc((100% - 3 * 24px) / 4);
 }
 /*-----------------------------work--------------------------------------------------*/
 .our-work-container {
@@ -216,7 +214,7 @@ body {
   column-gap: 24px;
 }
 .our-work-item {
-  flex-basis: calc((100% - 48px) / 3);
+  flex-basis: calc((100% - 2 * 24px) / 3);
 }
 
 /*-----------------------------team---------------------------------------------------*/
@@ -229,7 +227,7 @@ body {
   gap: 24px;
 }
 .team-item {
-  flex-basis: calc((100% - 72px) / 4);
+  flex-basis: calc((100% - 3 * 24px) / 4);
 }
 .developer-name {
   text-align: center;
