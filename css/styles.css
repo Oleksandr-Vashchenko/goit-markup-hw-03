@@ -94,7 +94,7 @@ button {
   padding: 32px 16px;
 
   border: 1px solid var(--footer-text-color);
-  border-top: 0px;
+  border-top:none;
 }
 /*=======================================body=======================================*/
 body {
